@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Text.Roboto.Regular" parent="">
+        <item name="android:fontFamily">@font/roboto_regular</item>
+    </style>
+
+    <style name="Text.Roboto.Medium" parent="">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+    </style>
+
+    <style name="Text.Roboto.Bold" parent="">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+    </style>
+
+    <style name="Text.Roboto.Black" parent="">
+        <item name="android:fontFamily">@font/roboto_black</item>
+    </style>
+
+    <style name="Text.Roboto.Black.12" parent="Text.Roboto.Black">
+        <item name="android:textSize">@dimen/sp_12</item>
+    </style>
+
+    <style name="Text.Roboto.Medium.14" parent="Text.Roboto.Medium">
+        <item name="android:textSize">@dimen/sp_14</item>
+    </style>
+
+    <style name="Text.Roboto.Regular.16" parent="Text.Roboto.Regular">
+        <item name="android:textSize">@dimen/sp_16</item>
+    </style>
+
+    <style name="Text.Roboto.Black.18" parent="Text.Roboto.Black">
+        <item name="android:textSize">@dimen/sp_18</item>
+    </style>
+
+    <style name="Text.Roboto.Bold.20" parent="Text.Roboto.Bold">
+        <item name="android:textSize">@dimen/sp_20</item>
+    </style>
+
+    <style name="Text.Roboto.Medium.26" parent="Text.Roboto.Medium">
+        <item name="android:textSize">@dimen/sp_26</item>
+    </style>
+
+    <style name="Text.Roboto.Black.30" parent="Text.Roboto.Black">
+        <item name="android:textSize">@dimen/sp_30</item>
+    </style>
+
+    <style name="Text.Roboto.Bold.26" parent="Text.Roboto.Bold">
+        <item name="android:textSize">@dimen/sp_26</item>
+    </style>
+
+</resources>

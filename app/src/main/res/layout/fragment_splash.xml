@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ufo_green"
+    android:orientation="vertical"
+    tools:context=".ui.splash.SplashFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_128"
+        android:src="@drawable/mask_group" />
+
+    <TextView
+        android:id="@+id/tvText"
+        style="@style/Text.Roboto.Black.30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_40"
+        android:text="@string/splashText"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:text="@string/splashButtonText"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="@dimen/dp_30"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/dp_50"
+        style="@style/Text.Roboto.Bold.20"/>
+
+</LinearLayout>
